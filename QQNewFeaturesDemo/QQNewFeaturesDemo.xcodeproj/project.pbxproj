@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A48E2DE23176D00009E395E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2DD23176D00009E395E /* AppDelegate.m */; };
-		4A48E2E123176D00009E395E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2E023176D00009E395E /* ViewController.m */; };
+		16081FCFAF33143A52B5F966 /* Pods_QQNewFeaturesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B94C870D47A306BF5C2E137 /* Pods_QQNewFeaturesDemo.framework */; };
+		4A48E2DE23176D00009E395E /* HYHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2DD23176D00009E395E /* HYHAppDelegate.m */; };
+		4A48E2E123176D00009E395E /* HYHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2E023176D00009E395E /* HYHHomeController.m */; };
 		4A48E2E423176D00009E395E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A48E2E223176D00009E395E /* Main.storyboard */; };
 		4A48E2E623176D01009E395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A48E2E523176D01009E395E /* Assets.xcassets */; };
 		4A48E2E923176D01009E395E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A48E2E723176D01009E395E /* LaunchScreen.storyboard */; };
 		4A48E2EC23176D01009E395E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2EB23176D01009E395E /* main.m */; };
 		4A48E2F623176D02009E395E /* QQNewFeaturesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E2F523176D02009E395E /* QQNewFeaturesDemoTests.m */; };
 		4A48E30123176D02009E395E /* QQNewFeaturesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E30023176D02009E395E /* QQNewFeaturesDemoUITests.m */; };
+		4A48E31023177413009E395E /* HYHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E30F23177413009E395E /* HYHNavigationController.m */; };
+		4A48E31823177A8E009E395E /* HYHHomeBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E31723177A8E009E395E /* HYHHomeBusiness.m */; };
+		4A48E31C23177E00009E395E /* HYHHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E31A23177E00009E395E /* HYHHomeTableViewCell.m */; };
+		4A48E31D23177E00009E395E /* HYHHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A48E31B23177E00009E395E /* HYHHomeTableViewCell.xib */; };
+		4A48E3212317D48E009E395E /* UIImage+HYHProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E3202317D48E009E395E /* UIImage+HYHProcessing.m */; };
+		4A48E3242317F3F9009E395E /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A48E3232317F3F9009E395E /* list.json */; };
+		4A48E3272317F420009E395E /* HYHJsonParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E3262317F420009E395E /* HYHJsonParse.m */; };
+		4A48E32A2317F439009E395E /* HYHHomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E3292317F439009E395E /* HYHHomeListModel.m */; };
+		D585BAFB15D3FFE07E6CDD9F /* Pods_QQNewFeaturesDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D64CC83158682E36EE9C447 /* Pods_QQNewFeaturesDemoTests.framework */; };
+		F5DE3B50B6C1599ADEAEEE8A /* Pods_QQNewFeaturesDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149AF2FA3A1B9928B78A9941 /* Pods_QQNewFeaturesDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149AF2FA3A1B9928B78A9941 /* Pods_QQNewFeaturesDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQNewFeaturesDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B94C870D47A306BF5C2E137 /* Pods_QQNewFeaturesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQNewFeaturesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4A30D3F0BCF248A74DA07B /* Pods-QQNewFeaturesDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemoUITests/Pods-QQNewFeaturesDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44D5600A9EA33B50F6030468 /* Pods-QQNewFeaturesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemo.debug.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemo/Pods-QQNewFeaturesDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4A48E2D923176D00009E395E /* QQNewFeaturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQNewFeaturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A48E2DC23176D00009E395E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A48E2DD23176D00009E395E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A48E2DF23176D00009E395E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A48E2E023176D00009E395E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A48E2DC23176D00009E395E /* HYHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHAppDelegate.h; sourceTree = "<group>"; };
+		4A48E2DD23176D00009E395E /* HYHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHAppDelegate.m; sourceTree = "<group>"; };
+		4A48E2DF23176D00009E395E /* HYHHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHHomeController.h; sourceTree = "<group>"; };
+		4A48E2E023176D00009E395E /* HYHHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHHomeController.m; sourceTree = "<group>"; };
 		4A48E2E323176D00009E395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A48E2E523176D01009E395E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A48E2E823176D01009E395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,26 @@
 		4A48E2FC23176D02009E395E /* QQNewFeaturesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQNewFeaturesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A48E30023176D02009E395E /* QQNewFeaturesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQNewFeaturesDemoUITests.m; sourceTree = "<group>"; };
 		4A48E30223176D02009E395E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A48E30E23177413009E395E /* HYHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHNavigationController.h; sourceTree = "<group>"; };
+		4A48E30F23177413009E395E /* HYHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHNavigationController.m; sourceTree = "<group>"; };
+		4A48E311231776BF009E395E /* QQNewFeaturesDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQNewFeaturesDemo.pch; sourceTree = "<group>"; };
+		4A48E31623177A8E009E395E /* HYHHomeBusiness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHHomeBusiness.h; sourceTree = "<group>"; };
+		4A48E31723177A8E009E395E /* HYHHomeBusiness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHHomeBusiness.m; sourceTree = "<group>"; };
+		4A48E31923177E00009E395E /* HYHHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHHomeTableViewCell.h; sourceTree = "<group>"; };
+		4A48E31A23177E00009E395E /* HYHHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHHomeTableViewCell.m; sourceTree = "<group>"; };
+		4A48E31B23177E00009E395E /* HYHHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYHHomeTableViewCell.xib; sourceTree = "<group>"; };
+		4A48E31F2317D48E009E395E /* UIImage+HYHProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HYHProcessing.h"; sourceTree = "<group>"; };
+		4A48E3202317D48E009E395E /* UIImage+HYHProcessing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HYHProcessing.m"; sourceTree = "<group>"; };
+		4A48E3232317F3F9009E395E /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = list.json; path = ../../../list.json; sourceTree = "<group>"; };
+		4A48E3252317F420009E395E /* HYHJsonParse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHJsonParse.h; sourceTree = "<group>"; };
+		4A48E3262317F420009E395E /* HYHJsonParse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHJsonParse.m; sourceTree = "<group>"; };
+		4A48E3282317F439009E395E /* HYHHomeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHHomeListModel.h; sourceTree = "<group>"; };
+		4A48E3292317F439009E395E /* HYHHomeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHHomeListModel.m; sourceTree = "<group>"; };
+		8D64CC83158682E36EE9C447 /* Pods_QQNewFeaturesDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQNewFeaturesDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9677B6475702D2F1964BEC5 /* Pods-QQNewFeaturesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemo.release.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemo/Pods-QQNewFeaturesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D822811DA7FBD7CA9E208C94 /* Pods-QQNewFeaturesDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemoTests.release.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemoTests/Pods-QQNewFeaturesDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5B88D7769AA5284A4E549B0 /* Pods-QQNewFeaturesDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemoTests/Pods-QQNewFeaturesDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7240F337DDDBB9920EC06D /* Pods-QQNewFeaturesDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQNewFeaturesDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-QQNewFeaturesDemoUITests/Pods-QQNewFeaturesDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16081FCFAF33143A52B5F966 /* Pods_QQNewFeaturesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D585BAFB15D3FFE07E6CDD9F /* Pods_QQNewFeaturesDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DE3B50B6C1599ADEAEEE8A /* Pods_QQNewFeaturesDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +123,8 @@
 				4A48E2F423176D02009E395E /* QQNewFeaturesDemoTests */,
 				4A48E2FF23176D02009E395E /* QQNewFeaturesDemoUITests */,
 				4A48E2DA23176D00009E395E /* Products */,
+				6C021B0CD4A7163E8B081757 /* Pods */,
+				6B00891774E69B46081443E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +141,12 @@
 		4A48E2DB23176D00009E395E /* QQNewFeaturesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4A48E2DC23176D00009E395E /* AppDelegate.h */,
-				4A48E2DD23176D00009E395E /* AppDelegate.m */,
-				4A48E2DF23176D00009E395E /* ViewController.h */,
-				4A48E2E023176D00009E395E /* ViewController.m */,
-				4A48E2E223176D00009E395E /* Main.storyboard */,
-				4A48E2E523176D01009E395E /* Assets.xcassets */,
-				4A48E2E723176D01009E395E /* LaunchScreen.storyboard */,
-				4A48E2EA23176D01009E395E /* Info.plist */,
-				4A48E2EB23176D01009E395E /* main.m */,
+				4A48E3222317E57E009E395E /* Resources */,
+				4A48E31E2317D418009E395E /* Categories */,
+				4A48E31523177A5A009E395E /* ViewModels */,
+				4A48E31423177A52009E395E /* Models */,
+				4A48E31323177A22009E395E /* Views */,
+				4A48E31223177A17009E395E /* Controllers */,
 			);
 			path = QQNewFeaturesDemo;
 			sourceTree = "<group>";
@@ -132,6 +169,95 @@
 			path = QQNewFeaturesDemoUITests;
 			sourceTree = "<group>";
 		};
+		4A48E31223177A17009E395E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E30E23177413009E395E /* HYHNavigationController.h */,
+				4A48E30F23177413009E395E /* HYHNavigationController.m */,
+				4A48E2DF23176D00009E395E /* HYHHomeController.h */,
+				4A48E2E023176D00009E395E /* HYHHomeController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4A48E31323177A22009E395E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E31923177E00009E395E /* HYHHomeTableViewCell.h */,
+				4A48E31A23177E00009E395E /* HYHHomeTableViewCell.m */,
+				4A48E31B23177E00009E395E /* HYHHomeTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A48E31423177A52009E395E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E3282317F439009E395E /* HYHHomeListModel.h */,
+				4A48E3292317F439009E395E /* HYHHomeListModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A48E31523177A5A009E395E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E31623177A8E009E395E /* HYHHomeBusiness.h */,
+				4A48E31723177A8E009E395E /* HYHHomeBusiness.m */,
+				4A48E3252317F420009E395E /* HYHJsonParse.h */,
+				4A48E3262317F420009E395E /* HYHJsonParse.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4A48E31E2317D418009E395E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E31F2317D48E009E395E /* UIImage+HYHProcessing.h */,
+				4A48E3202317D48E009E395E /* UIImage+HYHProcessing.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4A48E3222317E57E009E395E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A48E3232317F3F9009E395E /* list.json */,
+				4A48E2DC23176D00009E395E /* HYHAppDelegate.h */,
+				4A48E2DD23176D00009E395E /* HYHAppDelegate.m */,
+				4A48E2E223176D00009E395E /* Main.storyboard */,
+				4A48E2E523176D01009E395E /* Assets.xcassets */,
+				4A48E2E723176D01009E395E /* LaunchScreen.storyboard */,
+				4A48E2EA23176D01009E395E /* Info.plist */,
+				4A48E311231776BF009E395E /* QQNewFeaturesDemo.pch */,
+				4A48E2EB23176D01009E395E /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B00891774E69B46081443E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B94C870D47A306BF5C2E137 /* Pods_QQNewFeaturesDemo.framework */,
+				8D64CC83158682E36EE9C447 /* Pods_QQNewFeaturesDemoTests.framework */,
+				149AF2FA3A1B9928B78A9941 /* Pods_QQNewFeaturesDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C021B0CD4A7163E8B081757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D5600A9EA33B50F6030468 /* Pods-QQNewFeaturesDemo.debug.xcconfig */,
+				C9677B6475702D2F1964BEC5 /* Pods-QQNewFeaturesDemo.release.xcconfig */,
+				F5B88D7769AA5284A4E549B0 /* Pods-QQNewFeaturesDemoTests.debug.xcconfig */,
+				D822811DA7FBD7CA9E208C94 /* Pods-QQNewFeaturesDemoTests.release.xcconfig */,
+				FD7240F337DDDBB9920EC06D /* Pods-QQNewFeaturesDemoUITests.debug.xcconfig */,
+				3C4A30D3F0BCF248A74DA07B /* Pods-QQNewFeaturesDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A48E30523176D02009E395E /* Build configuration list for PBXNativeTarget "QQNewFeaturesDemo" */;
 			buildPhases = (
+				AF96DF4B92C50934DF138858 /* [CP] Check Pods Manifest.lock */,
 				4A48E2D523176D00009E395E /* Sources */,
 				4A48E2D623176D00009E395E /* Frameworks */,
 				4A48E2D723176D00009E395E /* Resources */,
+				17B58ECD336003637DDBFD82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A48E30823176D02009E395E /* Build configuration list for PBXNativeTarget "QQNewFeaturesDemoTests" */;
 			buildPhases = (
+				F55777ADBC6100283FB13D65 /* [CP] Check Pods Manifest.lock */,
 				4A48E2ED23176D02009E395E /* Sources */,
 				4A48E2EE23176D02009E395E /* Frameworks */,
 				4A48E2EF23176D02009E395E /* Resources */,
@@ -174,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A48E30B23176D02009E395E /* Build configuration list for PBXNativeTarget "QQNewFeaturesDemoUITests" */;
 			buildPhases = (
+				92B312DA69D947A42684AD27 /* [CP] Check Pods Manifest.lock */,
 				4A48E2F823176D02009E395E /* Sources */,
 				4A48E2F923176D02009E395E /* Frameworks */,
 				4A48E2FA23176D02009E395E /* Resources */,
@@ -237,6 +367,8 @@
 			files = (
 				4A48E2E923176D01009E395E /* LaunchScreen.storyboard in Resources */,
 				4A48E2E623176D01009E395E /* Assets.xcassets in Resources */,
+				4A48E31D23177E00009E395E /* HYHHomeTableViewCell.xib in Resources */,
+				4A48E3242317F3F9009E395E /* list.json in Resources */,
 				4A48E2E423176D00009E395E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +389,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B58ECD336003637DDBFD82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QQNewFeaturesDemo/Pods-QQNewFeaturesDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QQNewFeaturesDemo/Pods-QQNewFeaturesDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QQNewFeaturesDemo/Pods-QQNewFeaturesDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B312DA69D947A42684AD27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQNewFeaturesDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF96DF4B92C50934DF138858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQNewFeaturesDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55777ADBC6100283FB13D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQNewFeaturesDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A48E2D523176D00009E395E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A48E2E123176D00009E395E /* ViewController.m in Sources */,
+				4A48E2E123176D00009E395E /* HYHHomeController.m in Sources */,
+				4A48E31823177A8E009E395E /* HYHHomeBusiness.m in Sources */,
+				4A48E31C23177E00009E395E /* HYHHomeTableViewCell.m in Sources */,
+				4A48E31023177413009E395E /* HYHNavigationController.m in Sources */,
+				4A48E32A2317F439009E395E /* HYHHomeListModel.m in Sources */,
 				4A48E2EC23176D01009E395E /* main.m in Sources */,
-				4A48E2DE23176D00009E395E /* AppDelegate.m in Sources */,
+				4A48E2DE23176D00009E395E /* HYHAppDelegate.m in Sources */,
+				4A48E3212317D48E009E395E /* UIImage+HYHProcessing.m in Sources */,
+				4A48E3272317F420009E395E /* HYHJsonParse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,38 +657,45 @@
 		};
 		4A48E30623176D02009E395E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D5600A9EA33B50F6030468 /* Pods-QQNewFeaturesDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QQNewFeaturesDemo/Info.plist;
+				GCC_PREFIX_HEADER = /Users/ddreader/Desktop/PersionalDEV/QQNewFeaturesDemo/QQNewFeaturesDemo/QQNewFeaturesDemo/Resources/QQNewFeaturesDemo.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/QQNewFeaturesDemo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.QQNewFeaturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4A48E30723176D02009E395E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9677B6475702D2F1964BEC5 /* Pods-QQNewFeaturesDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QQNewFeaturesDemo/Info.plist;
+				GCC_PREFIX_HEADER = /Users/ddreader/Desktop/PersionalDEV/QQNewFeaturesDemo/QQNewFeaturesDemo/QQNewFeaturesDemo/Resources/QQNewFeaturesDemo.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/QQNewFeaturesDemo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.QQNewFeaturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4A48E30923176D02009E395E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B88D7769AA5284A4E549B0 /* Pods-QQNewFeaturesDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +714,7 @@
 		};
 		4A48E30A23176D02009E395E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D822811DA7FBD7CA9E208C94 /* Pods-QQNewFeaturesDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +733,7 @@
 		};
 		4A48E30C23176D02009E395E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7240F337DDDBB9920EC06D /* Pods-QQNewFeaturesDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QQNewFeaturesDemoUITests/Info.plist;
@@ -518,6 +751,7 @@
 		};
 		4A48E30D23176D02009E395E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4A30D3F0BCF248A74DA07B /* Pods-QQNewFeaturesDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QQNewFeaturesDemoUITests/Info.plist;

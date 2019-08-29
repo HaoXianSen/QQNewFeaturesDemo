@@ -1,0 +1,18 @@
+//
+//  QQNewFeaturesDemo.pch
+//  QQNewFeaturesDemo
+//
+//  Created by harry on 2019/8/29.
+//  Copyright © 2019 DangDang. All rights reserved.
+//
+
+#ifndef QQNewFeaturesDemo_pch
+#define QQNewFeaturesDemo_pch
+
+#import <UIView_Frame/UIView+Frame-umbrella.h>
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <MJExtension/MJExtension.h>
+
+#endif /* QQNewFeaturesDemo_pch */
